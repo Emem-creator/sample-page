@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: relative;
+}
+
+.header {
+  background-image: url('../images/background.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+  place-content: center;
+  width: 100%;
+  height: 450px;
+  z-index: -1;
+}
+
+.inner {
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.btn {
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+  padding: 1em 2em;
+  border: 1px solid #666;
+  margin: 0.5em 0;
+}
+
+.btn:hover {
+  background: #fff;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+}
+
+.inner p {
+  margin-top: 20px;
+}
+
+.inner .btn {
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+.para {
+  font-size: 20px;
+}
+
+/* this is the web and app dev  */
+.emem {
+  display: block;
+  align-items: center;
+  text-align: center;
+  width: 80%;
+  box-sizing: border-box;
+  clear: both;
+  margin: 30px auto;
+}
+
+.section {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.left,
+.right {
+  width: 50%;
+  padding: 20px 40px;
+  font-size: 20px;
+}
+
+.june h3 {
+  font-size: 30px;
+}
+/*A section of cards-*/
+img {
+  width: 100%;
+}
+
+.card1 img,
+.card2 img,
+.card3 img {
+  width: 300px;
+  height: 200px;
+}
+
+.chichi {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  padding: 50px;
+}
+
+.card1,
+.card2,
+.card3 {
+  max-width: 300px;
+  margin: 10px 15px;
+  background: #fff;
+}
+
+.debby {
+  padding: 10px;
+  text-align: center;
+}
+
+.debby p {
+  font-size: 17.6px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 15px 0;
+  line-height: 1.5;
+  padding: 20px;
+}
+
+.debby h3 {
+  font-size: 20.592px;
+  line-height: 30.888px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.love {
+  color: #333;
+  padding: 3em;
+  text-align: center;
+  background-color: #fff;
+}
+.love h3 {
+  font-size: 26.4px;
+  margin: 5px;
+}
+
+.love p {
+  padding: 1em;
+  font-size: 17.6px;
+  margin: 5px;
+  line-height: 30.888px;
+}
+
+.blue {
+  background-color: #2690d4;
+  text-align: center !important;
+  color: #fff;
+}
+
+.black {
+  background-color: #333333;
+  text-align: center !important;
+  color: #fff;
+}
+
+.white {
+  margin: 40px;
+}
+
+.pink {
+  padding: 30px 0;
+  margin: 0 !important;
+}
+
+.pure {
+  padding: 0 !important;
+}
+
+footer {
+  display: flex;
+  background-color: black;
+  justify-content: space-around;
+  padding: 30px;
+  color: #fff;
+}
+
+span {
+  color: #2690d4;
+}
+
+/* mobile */
+
+@media (max-width: 768px) {
+  .chichi,
+  .emem,
+  .section,
+  .pure {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .left,
+  .right {
+    width: 100%;
+    padding: 20px 40px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .pink {
+    font-size: 18px;
+    margin: 0 !important;
+  }
+}
+
+@media (max-width: 375px) {
+  footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer p {
+    margin: 10px 0;
+  }
+}
